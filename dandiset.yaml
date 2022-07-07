@@ -2,6 +2,10 @@
 # It can be edited online at https://dandiarchive.org/dandiset/000293
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.3/context.json
+about:
+- identifier: UBERON:0001851
+  name: Cortex
+  schemaKey: Anatomy
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -30,28 +34,77 @@ assetsSummary:
   - VoltageClampStimulusSeries
   - CurrentClampSeries
   - CurrentClampStimulusSeries
-citation: Howard, Derek (2022) UHN whole-cell patch-clamp excitability recordings
-  from human cortical neurons (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000293/draft
+citation: Howard, Derek; Moradi, Homeira Moradi; Valiante, Taufik; Tripathy, Shreejoy
+  (2022) UHN whole-cell patch-clamp excitability recordings from human cortical neurons
+  (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000293/draft
 contributor:
-- affiliation: []
+- affiliation:
+  - name: Krembil Institute for Neuroinformatics, CAMH
+    schemaKey: Affiliation
   email: derekhoward@gmail.com
+  identifier: 0000-0002-6621-9473
   includeInCitation: true
   name: Howard, Derek
   roleName:
   - dcite:ContactPerson
+  - dcite:DataCurator
+  schemaKey: Person
+- affiliation:
+  - name: Krembil Brain Institute, University Health Network
+    schemaKey: Affiliation
+  email: homeira.moradi@uhnresearch.ca
+  identifier: 0000-0002-8009-147X
+  includeInCitation: true
+  name: Moradi, Homeira Moradi
+  roleName:
+  - dcite:Author
+  - dcite:DataCollector
+  - dcite:DataCurator
+  schemaKey: Person
+- affiliation:
+  - name: Krembil Brain Institute, University Health Network
+    schemaKey: Affiliation
+  email: taufik.valiante@uhn.ca
+  identifier: 0000-0002-3443-3790
+  includeInCitation: true
+  name: Valiante, Taufik
+  roleName:
+  - dcite:DataCollector
+  - dcite:Supervision
+  schemaKey: Person
+- affiliation:
+  - name: Krembil Institute for Neuroinformatics, CAMH
+    schemaKey: Affiliation
+  email: shreejoy.tripathy@camh.ca
+  identifier: 0000-0002-1007-9061
+  includeInCitation: true
+  name: Tripathy, Shreejoy
+  roleName:
+  - dcite:Conceptualization
+  - dcite:DataCurator
+  - dcite:Supervision
   schemaKey: Person
 dateCreated: '2022-07-07T22:15:44.727530+00:00'
 description: Whole-cell patch clamp recordings from surgically resected human cortical
   tissue.
+ethicsApproval: []
 id: DANDI:000293/draft
 identifier: DANDI:000293
+keywords:
+- excitability
+- human
+- cortex
 license:
 - spdx:CC0-1.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000293/versions/draft/assets/
 name: UHN whole-cell patch-clamp excitability recordings from human cortical neurons
+protocol: []
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.3
+studyTarget: []
 url: https://dandiarchive.org/dandiset/000293/draft
 version: draft
+wasGeneratedBy: []
